@@ -1,0 +1,45 @@
+body {
+  background-color:#f1f3f6;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.signup{
+  @apply  md:w-[420px] p-4 w-[350px] bg-white rounded-lg shadow-lg flex flex-col  m-auto mt-[60px]
+ }
+
+ .login{
+  @apply  md:w-[420px] p-4 w-[350px] bg-white rounded-lg shadow-lg flex flex-col  m-auto mt-[90px]
+ }
+
+ .pdiv{
+   @apply p-4 flex-col flex gap-4 
+ }
+ 
+
+ .checkout >div{
+
+  @apply bg-white p-4 uppercase text-xl hover:cursor-pointer rounded-sm text-left text-gray-400
+ }
+
+ .addressform{
+   @apply flex flex-col gap-4 py-4
+ }
+
+ /* .razorpay-container{
+   @apply bg-slate-400 z-20
+ } */
