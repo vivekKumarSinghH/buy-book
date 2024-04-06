@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
 const port = process.env.PORT || 5000;
 
 mongoose
-  .connect("mongodb+srv://bookstore:1111@cluster0.gqtvxqw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+  .connect("mongodb+srv://bookstore:yq4U4em9PIFwjqiT@cluster0.gqtvxqw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => {
     app.listen(port, () => console.log(`Server running on port ${port}`));
   })
