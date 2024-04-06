@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url="https://buy-bookm.herokuapp.com/"
+const url="https://buy-book.onrender.com"
 const API = axios.create({
   baseURL: url,
 });
